@@ -66,7 +66,7 @@ def main():
             print_output(data, weights, b, n)
 
     if not converged:
-        print("Training did not converge within the maximum number of epochs.")
+        print("Training did nt converge within the maximum number of epochs.")
         print("Final Weights:", weights)
         print("Final Bias:", b)
 
