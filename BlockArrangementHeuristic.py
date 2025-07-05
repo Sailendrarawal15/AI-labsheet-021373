@@ -11,7 +11,7 @@ def distance_between_blocks(state, goal):
 def heuristic(state, goal):
     return misplaced_blocks(state, goal) + distance_between_blocks(state, goal)
 def main():
-    n = int(input("Enter the number of blocks: "))
+    n = int(input("Enter the nmber of blocks: "))
     print("Enter the initial state of the blocks (space or comma-separated):")
     initial_state_input = input().replace(',', ' ')  
     initial_state = initial_state_input.split()
