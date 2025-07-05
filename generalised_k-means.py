@@ -47,7 +47,7 @@ print("Final cluster assignments:")
 for idx, cluster in enumerate(cluster_assignments):
     print(f"Sample {idx}: Cluster {cluster}")
 
-print("\nFinal centroid positions:")
+print("\nFinal centroid positsons:")
 print(centroids)
 
 
