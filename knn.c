@@ -97,6 +97,6 @@ int main() {
     char predicted[20];
     predict_jeans_type(neighbors, K, predicted);
 
-    printf("\nPredicted jeans type: %s\n", predicted);
+    printf("\nPredictd jeans type: %s\n", predicted);
     return 0;
 }
