@@ -34,7 +34,7 @@ def train_perceptron(X, y, learning_rate=0.01, epochs=100):
 
 
 def run_test(n_features):
-    print(f"\n--- Training Perceptron with n = {n_features} Features ---")
+    print(f"\n--- Trining Perceptron with n = {n_features} Features ---")
     X, y, true_w, true_b = generate_dataset(n_features)
     print(f"True weights: {true_w}, True bias: {true_b}")
     weights, bias = train_perceptron(X, y)
