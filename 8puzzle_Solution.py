@@ -21,7 +21,7 @@ def generate_successors(state):
     return successors
 
 def main():
-    print("Enter the initial state of the puzzle:")
+    print("Entr the initial state of the puzzle:")
     initialState = list(map(int, input().split()))
     if len(initialState) != 9:
         print("Enter Exactly 9 numbers (0-8) separated by spaces!!!")
