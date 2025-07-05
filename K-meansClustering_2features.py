@@ -43,7 +43,7 @@ for iteration in range(max_iters):
     centroids = new_centroids
 
 # Final results
-print("Final cluster assignments:")
+print("Final clustr assignments:")
 for idx, cluster in enumerate(cluster_assignments):
     print(f"Sample {idx}: Cluster {cluster}")
 
