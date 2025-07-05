@@ -8,7 +8,7 @@ def generate_date(n):
     return data
 
 def print_table(data, n):
-    print(f"Truth Table with {n} inputs for AND gate:")
+    print(f"Truth Table wth {n} inputs for AND gate:")
     labels = [chr(65 + i) for i in range(n)]
     print("".join(labels) + "\tOutput(Y)")
     for row in data:
