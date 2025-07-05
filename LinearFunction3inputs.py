@@ -14,7 +14,7 @@ X = np.random.rand(10, 3)
 y_true = np.array([true_function(x[0], x[1], x[2]) for x in X])
 
 # Print dataset
-print("Dataset (x1, x2, x3, y):")
+print("Datast (x1, x2, x3, y):")
 for i in range(10):
     print(f"{X[i][0]:.3f}\t{X[i][1]:.3f}\t{X[i][2]:.3f}\t{y_true[i]:.3f}")
 
