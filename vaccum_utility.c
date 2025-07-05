@@ -8,7 +8,7 @@ int absVal(int a) { return a < 0 ? -a : a; }
 
 int main() {
     int x, y;
-    printf("Enter the Size of the Grid (x*y): ");
+    printf("Entr the Size of the Grid (x*y): ");
     scanf("%d%d", &x, &y);
     int grid[x][y];
     srand(time(NULL));
