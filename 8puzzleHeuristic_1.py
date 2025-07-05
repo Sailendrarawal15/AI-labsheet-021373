@@ -21,7 +21,7 @@ def main():
     print("\nGoal State:")
     for i in range(0, 9, 3):
         print(goal[i], goal[i + 1], goal[i + 2])
-    print(f"\nManhattan Distance Heuristic Value: {heuristic}")
+    print(f"\nManhattan Ditance Heuristic Value: {heuristic}")
 
 if __name__ == "__main__":
     main()
